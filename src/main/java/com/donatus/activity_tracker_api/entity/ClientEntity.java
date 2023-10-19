@@ -49,14 +49,6 @@ public class ClientEntity {
     private List<Roles> roles = new ArrayList<>();
 
 
-//    public void addRole(Roles role){
-//        if (roles == null){
-//            roles = new ArrayList<>();
-//        }
-//
-//        roles.add(role);
-//    }
-
     public void addTask(TaskEntity task){
         if (tasksList == null){
             tasksList = new ArrayList<>();
